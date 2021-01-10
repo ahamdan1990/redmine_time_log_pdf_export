@@ -8,6 +8,7 @@ Redmine time_log_export_pdf is compatible and tested with Redmine 4.1 and 4.0. I
 ***
 ### Features List
 * Export each Time Spent as PDF 
+* Export all Time entries as PDF based on the selected columns with a PDF button in the spent time tab 
 * Adding a logo in the assets/image/logo.png that will be exported with the pdf file
 ***
 ## Install
