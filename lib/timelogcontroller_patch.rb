@@ -33,7 +33,11 @@ module TimelogControllerPatch
           }
           format.pdf do
             @entries = scope.to_a
-            send_data(timelogs_to_pdf(@entries, @query,params), :type => 'application/pdf',:filename => "#{@project.identifier}-time_entries.pdf")
+            unless @project
+              send_data(timelogs_to_pdf(@entries, @query,params), :type => 'application/pdf',:filename => "Time_entries.pdf")
+            else
+              send_data(timelogs_to_pdf(@entries, @query,params), :type => 'application/pdf',:filename => "#{@project.identifier}-time_entries.pdf")
+            end
           end
     
         end
