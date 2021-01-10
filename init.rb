@@ -5,7 +5,7 @@ require 'timelogcontroller_patch'
 require_dependency 'queries_helper_patch'
 
 Redmine::Plugin.register :redmine_time_log_pdf_export do
-  name 'Time Log Pdf Export plugin'
+  name 'Redmine Time Log Pdf Export plugin'
   author 'Ali Hamdan'
   description 'This is a plugin for Redmine Time_Log module that add a button in the list table of time_log view which export it as a pdf'
   version '1.0.0'
