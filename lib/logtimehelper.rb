@@ -8,7 +8,7 @@ include Redmine::Export::PDF
             pdf.add_page
             pdf.SetFontStyle('B',11)
             buf = "Time_log_#{timeentry.id}"
-            image_file = Rails.root.to_s + '/plugins/time_log_pdf_export/assets/images/logo-social.png' #Adding logo to the exported file
+            image_file = Rails.root.to_s + '/plugins/time_log_pdf_export/assets/images/logo.png' #Adding logo to the exported file
             pdf.Image(image_file, 10, 10, 52, '', 'PNG', '', 'T', false, 300, '', false, false, 0, false, false, false)
             pdf.SetFontStyle('',13)
             pdf.ln(20,1)
