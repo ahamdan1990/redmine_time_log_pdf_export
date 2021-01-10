@@ -16,4 +16,4 @@ Extract repo to <redmine>/plugins. Make sure the plugin directory is called <red
  
 Restart redmine.
 ***
-Done By Ali Hamdan
+
