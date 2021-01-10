@@ -1,6 +1,9 @@
 require 'redmine'
 require 'LogTimeHelper'
+require 'AllTimeLogHelper'
 require 'timelogcontroller_patch'
+require_dependency 'queries_helper_patch'
+
 Redmine::Plugin.register :time_log_pdf_export do
   name 'Time Log Pdf Export plugin'
   author 'Ali Hamdan'
@@ -11,4 +14,6 @@ Redmine::Plugin.register :time_log_pdf_export do
 end
 
 TimelogHelper.send(:include,  LogTimeHelper)
+TimelogHelper.send(:include,  AllTimeLogHelper)
 TimelogController.send(:include, TimelogControllerPatch)
+# QueriesHelper.send(:include, QueriesHelperPatch)
