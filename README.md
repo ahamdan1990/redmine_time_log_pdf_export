@@ -12,8 +12,7 @@ Redmine time_log_export_pdf is compatible and tested with Redmine 4.1 and 4.0. I
 * Adding a logo in the assets/image/logo.png that will be exported with the pdf file
 ***
 ## Install
-Extract repo to <redmine>/plugins. Make sure the plugin directory is called <redmine>/plugins/time_log_pdf_export/ (#11).
-Install required dependencies by running bundle install --without development test in your redmine directory. 
+Extract repo to <redmine>/plugins. Make sure the plugin directory is called <redmine>/plugins/time_log_pdf_export/ (#11). 
 Restart redmine.
 ***
 Done By Ali Hamdan
