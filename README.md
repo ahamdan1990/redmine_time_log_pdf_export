@@ -2,7 +2,7 @@
 
 ***
 
-This Redmine plugin adds an export button in the time_log list that exported each time spent as a pdf format.
+This Redmine plugin add an export button in the time_log list that allow to export each time spent as a pdf format in addition to a pdf button that export all time spent in the list.
 Redmine time_log_export_pdf is compatible and tested with Redmine 4.1 and 4.0. It may be compatible with older versions too.
 
 ***
