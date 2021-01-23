@@ -1,6 +1,6 @@
 require 'redmine'
-require 'LogTimeHelper'
-require 'AllTimeLogHelper'
+require 'logtimehelper'
+require 'alltimeloghelper'
 require 'timelogcontroller_patch'
 require_dependency 'queries_helper_patch'
 
